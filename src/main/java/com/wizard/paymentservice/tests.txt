@@ -1,0 +1,14 @@
+https://www.epochconverter.com/
+To Generate API key, Secrets : https://accounts.razorpay.com/
+
+GET : localhost:8080/payment
+
+{
+	"email":"wizard@hotmail.com",
+	"phoneNumber":"919790198945",
+	"name":"WizardDMorn",
+	"orderId":"OID#1234",
+	"amount":1000
+}
+
+//output : https://rzp.io/rzp/oJvKM6dm
