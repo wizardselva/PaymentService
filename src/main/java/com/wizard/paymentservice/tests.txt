@@ -1,7 +1,4 @@
-
-
 https://www.epochconverter.com/
-To Generate API key, Secrets : https://accounts.razorpay.com/
 
 GET : localhost:8080/payment
 
