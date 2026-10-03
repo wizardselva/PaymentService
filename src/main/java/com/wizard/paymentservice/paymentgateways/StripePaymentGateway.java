@@ -21,7 +21,6 @@ public class StripePaymentGateway implements  IPaymentGateway{
     @Override
     public String getPaymentLink(Long amount, String phoneNumber, String name, String email, String orderId) {
         try {
-//            StripeClient client = new StripeClient("sk_test_tR3PYbcVNZZ796tH88S4VQ2u");
             Stripe.apiKey=this.apiKey;
 
             Price price= getPrice(amount);
