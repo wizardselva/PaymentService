@@ -12,3 +12,31 @@ GET : localhost:8080/payment
 }
 
 //output : https://rzp.io/rzp/oJvKM6dm
+
+
+Stripe PaymentGateway Test:
+---------------------------
+https://dashboard.stripe.com/acct_1UMNRDRiK8jJjpuA/test/apikeys --Api Key generation
+
+Post: http://localhost:8080/payment
+
+Req:
+100 cent = 1 USD
+{
+"amount" : 100
+}
+
+Resp : https://buy.stripe.com/test_28E6oJgGEdiq9CJ9aiaVa00
+
+https://docs.stripe.com/testing --Fetch dummy card here
+
+Output:
+Thanks for subscribing
+A payment to Stripe will appear on your statement.
+Contact information
+infantselvajnf@gmail.com
+Payment method
+Visa
+Visa ••••4242
+—
+US$1.00
