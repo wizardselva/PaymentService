@@ -43,7 +43,6 @@ public class StripePaymentGateway implements  IPaymentGateway{
     }
         private Price getPrice(Long amount) {
             try {
-        //StripeClient client = new StripeClient(   );
 
                 PriceCreateParams params =
                         PriceCreateParams.builder()
