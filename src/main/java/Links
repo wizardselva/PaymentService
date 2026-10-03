@@ -2,3 +2,20 @@ https://docs.stripe.com/api/payment-link/create
 https://docs.stripe.com/api/prices/create
 
 https://mvnrepository.com/artifact/com.stripe/stripe-java/32.1.0
+
+https://login.ngrok.com/
+https://theboroer.github.io/localtunnel-www/
+
+
+NGROK
+------
+# winget install ngrok -s msstore
+    login to https://login.ngrok.com/
+# ngrok config add-authtoken $YOUR_AUTHTOKEN
+# ngrok http http://localhost:8080
+
+Post : http://localhost:8080/payment
+{
+"amount" : 300
+}
+
